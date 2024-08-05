@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "fetch": "^1.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "scripts": {
+    "start": "concurrently \"node A.js\" \"node B.js\""
+  }
+}
